@@ -1,2 +1,0 @@
-data class Task(val id: Int, val name: String, var status: Int)
- 
