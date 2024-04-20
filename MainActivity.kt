@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         // 'image1', 'image2', 'image3', ... in a folder
         val imageResourceIds = listOf(
             R.drawable.image1, R.drawable.image2, R.drawable.image3
-            // Add the rest of your image resource IDs here
+            
         )
         
         recyclerView.adapter = PhotoAdapter(imageResourceIds)
